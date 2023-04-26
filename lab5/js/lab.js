@@ -1,7 +1,23 @@
 // index.js - purpose and description here
-// Author: Your Name
-// Date:
+// Author: Niko Miller
+// Date: April 27, 2023
 
+//Variables
+var make = "Kia";
+var model = "Optima";
+var color = "Black";
+var year = "2011";
+
+// calculate
+var age= 2023 - year; 
+
+// output
+document.writeln("Make: " + make + "<br>");
+document.writeln("model: " + model + "<br>");
+document.writeln("color: " + color + "<br>");
+document.writeln("year: " + year + "<br>");
+document.writeln("age: " + age + " years<br>");
+/*
 // Constants
 
 // Functions
@@ -19,3 +35,4 @@ function main() {
 
 // let's get this party started
 main();
+*/
