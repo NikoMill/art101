@@ -1,8 +1,25 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
-
+// index.js - Lab 6: Arrays and Objects
+// Author: Niko Miller
+// Date: 5/2/23
 // Constants
+
+// Arrays/Objects
+
+var myTransport= ['feet', 'car', 'bus', 'skateboard'];
+var myMainRide = {
+  make: "Kia",
+  model: "optima", 
+  year: 2011,
+  color: "black", 
+  currentYear: 2023,
+  age: function() {
+    return this.currentYear - this.age;
+  }
+}
+
+// output
+document.writeln("Getting around: "+ myTransport + "<br>");
+document.writeln("My Main Ride: <pre>", JSON.stringify(myMainRide, null, '\t'), "</pre>" );
 
 // Functions
 
