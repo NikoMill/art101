@@ -14,7 +14,7 @@ function isEven(x) {
 console.log("Is 1 even? ", isEven(1));
 console.log("Is 2 even? ", isEven(2));
 
-Array = [100, 734289, 27, 66, 8, 29]
+var array = [100, 734289, 27, 66, 8, 29];
 console.log("My array", array);
 
 var result = array.map(isEven);
