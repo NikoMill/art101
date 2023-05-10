@@ -12,7 +12,7 @@ var new2El= document.createElement("p");
 new2El.innerHTML("My name is Niko")
 
 outputEl.appendChild(new1El)
-<div>
+
 
 
 var
