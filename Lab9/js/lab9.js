@@ -9,13 +9,13 @@ var new1El = document.getElementById("p");
 new1El.innerHTML("Wassup art 101!!!");
 
 var new2El= document.createElement("p");
-new2El.innerHTML("My name is Niko")
+new2El.innerHTML("My name is Niko");
 
-outputEl.appendChild(new1El)
+outputEl.appendChild(new1El);
 
 
 
-var
+
 // Functions
 
 
