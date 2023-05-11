@@ -5,11 +5,18 @@
 // Constants
 var outputEl = document.getElementById("output");
 
-var new1El = document.getElementById("p");
-new1El.innerHTML("Wassup art 101!!!");
 
+//first element
+var new1El = document.getElementById("p");
+outputEl.appendChild(newEl);
+new1El.innerHTML = "Wassup art 101!!!";
+
+
+// second element
 var new2El= document.createElement("p");
-new2El.innerHTML("My name is Niko");
+outputEl.appendChild(new2El);
+new2El.innerHTML= "My name is Niko";
+
 
 outputEl.appendChild(new1El);
 

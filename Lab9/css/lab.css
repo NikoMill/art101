@@ -3,7 +3,7 @@
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
     padding: 20px;
-    margin-bottom: 1000px;
-    border: dotted 666px 222#222;
+    margin-bottom: 10px;
+    border: dotted 333px#222;
     background-color: #444;
   }
