@@ -7,8 +7,8 @@ var outputEl = document.getElementById("output");
 
 
 //first element
-var new1El = document.getElementById("p");
-outputEl.appendChild(newEl);
+var new1El = document.createElement("p");
+output1El.appendChild(newEl);
 new1El.innerHTML = "Wassup art 101!!!";
 
 
@@ -18,7 +18,7 @@ outputEl.appendChild(new2El);
 new2El.innerHTML= "My name is Niko";
 
 
-outputEl.appendChild(new1El);
+
 
 
 
@@ -30,16 +30,3 @@ outputEl.appendChild(new1El);
 
 
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-    // some code here
-    // return results;
-  }
-  
-  function main() {
-    console.log("Main function started.");
-    // the code that makes everything happen
-  }
-  
-  // let's get this party started
-  main();
