@@ -8,7 +8,7 @@ var outputEl = document.getElementById("output");
 
 //first element
 var new1El = document.createElement("p");
-output1El.appendChild(newEl);
+outputEl.appendChild(new1El);
 new1El.innerHTML = "Wassup art 101!!!";
 
 
