@@ -6,6 +6,7 @@
 
 // Functions
 var sign= sortingHat (varsign);
+var asSign = sortingHat(name);
 function sortingHat(str) {
     len = str.length;
     mod = len % 12; 
@@ -51,7 +52,7 @@ function sortingHat(str) {
 var myButton = document.getElementById ("button");
 myButton.addEventListener("click", function (){
     var name = document.getElementById("input").value;
-    newText = "<p> I Think you are a..." 
+    newText = "<p>I think you are a " + asSign + ".</p>";
     document.getElementById("output").innerHTML = newText;
 })
   
