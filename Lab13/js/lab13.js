@@ -5,6 +5,34 @@
 // Constants
 
 // Functions
+	// create a "fizzBuzz" function that loops through
+    function fizzBuzz(){
+        var outty = "";
+        for (var i = 1; i <= 200; i++){
+            // multiple of 3 & 5 & 7
+            if (i % 105 == 0){
+                outty += "FizzBuzzBoom ";
+            // multiple of 5 & 7
+             }  else if (i % 35 == 0){
+                outty += "BuzzBoom ";
+            //multiple of 3 & 7    
+            } else if (i % 21 == 0){
+                outty += "FizzBoom";
+            //multiple of 3 & 5
+            } else if (i % 7 == 0){
+                outty += "Buzz";
+            // remainder of 3
+            } else if (i % 3 == 0){
+                outty += "Fizz";
+            } else {
+                outty += i + " ";
+            }
+        }
+        return outty;
+     }
+    var oneLongString = fizzBuzz();
+    $("#output").html (oneLongString);
+    
 function fizzBuzzBoom(maxNums, factorObj) {
     for (var num=0; num<muxNums; num++) {
         var outputStr = "";
