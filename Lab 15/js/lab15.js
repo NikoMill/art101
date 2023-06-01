@@ -6,15 +6,8 @@
 
 // Functions
 
-$("#challenge").append("<button>Challenge Button!!</button>");
-$("#challenge button").click(function() {
-    alert("AHH you hit the challenges button shii!!");
-});
 
-    $(document).ready(function() {
-      // Add click event to the button
-      $("#fetchButton").click(function() {
-        // Make the AJAX call
+
         $.ajax({
           url: "https://yesno.wtf/api",
           type: "GET",
@@ -27,8 +20,8 @@ $("#challenge button").click(function() {
             console.log("Error:", textStatus, errorThrown);
           }
         });
-      });
-    });
-  </script>
-</body>
-</html>
+   function getStuff({
+    
+   }
+
+   )
