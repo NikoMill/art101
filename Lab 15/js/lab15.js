@@ -7,6 +7,10 @@
 // Functions
 
 
+function getStuff(){
+
+}
+
 
         $.ajax({
           url: "https://yesno.wtf/api",
@@ -14,14 +18,11 @@
           dataType: "json",
           success: function(data) {
             // Update the output div with the result
-            $("#output").text(JSON.stringify(data));
+            $("#output").html("<h2>"+ data.answer + "</h2><img src='"+ data.image + "'>'");
           },
           error: function(jqXHR, textStatus, errorThrown) {
             console.log("Error:", textStatus, errorThrown);
           }
         });
-   function getStuff({
-    
-   }
 
-   )
+$("#button").click(getStuff());
