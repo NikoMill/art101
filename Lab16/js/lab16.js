@@ -5,20 +5,10 @@
 // Using the core $.ajax() method
 $.ajax({
     // The URL for the request (from the api docs)
-    url: "https://xkcd.com/info.0.json"
+    url: "https://xkcd.com/614/info.0.json"
     // The data to send (will be converted to a query string)
         ,data:{ 
-            month: "6", 
-            num: 2784, 
-            link: "https://xkcd.com/info.0.json", 
-            year: "2023",
-            news: "", 
-            safe_title: "Drainage Basins", 
-            transcript: "", 
-            alt: "After a pail of water was thrown on the Wicked Witch of the West outside Salt Lake City, Utah's Great Salt Lake was measured to be 7 parts per trillion witch by volume.",
-            img: "https://imgs.xkcd.com/comics/drainage_basins.png", 
-            title: "Drainage Basins", 
-            day: "2"
+          
           },
     // Whether this is a POST or GET request
     type: "GET",
@@ -28,7 +18,13 @@ $.ajax({
     //   all the action goes in here
     success: function(data) {
         // do stuff
-        console.log(data);
+        console.log(data); 
+        console.log (data.month);
+        console.log (data.num);
+        console.log (data.year);
+
+
+
     },
     // What we do if the api call fails
     error: function (jqXHR, textStatus, errorThrown) { 
