@@ -21,7 +21,11 @@ $.ajax({
         console.log(data); 
         console.log (data.month);
         console.log (data.num);
+        console.log (data.link);
         console.log (data.year);
+        console.log (news);
+        console.log (safe_title);
+        console.log (transcript);
 
 
 
