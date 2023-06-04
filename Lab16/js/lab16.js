@@ -5,9 +5,9 @@
 // Using the core $.ajax() method
 $.ajax({
     // The URL for the request (from the api docs)
-    url: "https://xkcd.com/614/info.0.json"
+    url: https://xkcd.com/614/info.0.json
     // The data to send (will be converted to a query string)
-        ,data:{ 
+        data:{ 
           
           },
     // Whether this is a POST or GET request
